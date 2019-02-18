@@ -23,13 +23,3 @@ body {
    left:0%
 }
 
-.h-hand {
-    transform: rotate(360deg);
-  }
-.m-hand {
-    transform: rotate(6deg);
-  }
-.s-hand {
-    transform: rotate(1deg);
-
-  }

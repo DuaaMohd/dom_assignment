@@ -1,0 +1,35 @@
+body {
+    background:pink;
+}
+
+.digi_clock {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    color: #f00;
+    font-size: 60px;
+    letter-spacing: 7px;
+}
+
+.analogue_clock {
+    
+    position:relative;   
+}
+
+
+.h-hand, .m-hand, .s-hand {
+   position: absolute;
+   top:0%;
+   left:0%
+}
+
+.h-hand {
+    transform: rotate(360deg);
+  }
+.m-hand {
+    transform: rotate(6deg);
+  }
+.s-hand {
+    transform: rotate(1deg);
+
+  }
